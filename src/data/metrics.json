@@ -1,0 +1,101 @@
+{
+  "year": 2025,
+  "months": [
+    {
+      "month": "January",
+      "monthShort": "Jan",
+      "revenue": 42500,
+      "visitors": 7800,
+      "conversionRate": 3.2,
+      "orders": 254
+    },
+    {
+      "month": "February",
+      "monthShort": "Feb",
+      "revenue": 40200,
+      "visitors": 7200,
+      "conversionRate": 2.8,
+      "orders": 196
+    },
+    {
+      "month": "March",
+      "monthShort": "Mar",
+      "revenue": 45800,
+      "visitors": 8400,
+      "conversionRate": 3.5,
+      "orders": 301
+    },
+    {
+      "month": "April",
+      "monthShort": "Apr",
+      "revenue": 44100,
+      "visitors": 9100,
+      "conversionRate": 3.1,
+      "orders": 275
+    },
+    {
+      "month": "May",
+      "monthShort": "May",
+      "revenue": 49600,
+      "visitors": 10200,
+      "conversionRate": 3.8,
+      "orders": 392
+    },
+    {
+      "month": "June",
+      "monthShort": "Jun",
+      "revenue": 58300,
+      "visitors": 12800,
+      "conversionRate": 4.2,
+      "orders": 545
+    },
+    {
+      "month": "July",
+      "monthShort": "Jul",
+      "revenue": 61200,
+      "visitors": 14500,
+      "conversionRate": 3.9,
+      "orders": 558
+    },
+    {
+      "month": "August",
+      "monthShort": "Aug",
+      "revenue": 64700,
+      "visitors": 13900,
+      "conversionRate": 4.4,
+      "orders": 620
+    },
+    {
+      "month": "September",
+      "monthShort": "Sep",
+      "revenue": 57900,
+      "visitors": 11200,
+      "conversionRate": 3.6,
+      "orders": 398
+    },
+    {
+      "month": "October",
+      "monthShort": "Oct",
+      "revenue": 52400,
+      "visitors": 9800,
+      "conversionRate": 3.3,
+      "orders": 330
+    },
+    {
+      "month": "November",
+      "monthShort": "Nov",
+      "revenue": 68900,
+      "visitors": 10500,
+      "conversionRate": 4.8,
+      "orders": 512
+    },
+    {
+      "month": "December",
+      "monthShort": "Dec",
+      "revenue": 76300,
+      "visitors": 12600,
+      "conversionRate": 4.6,
+      "orders": 590
+    }
+  ]
+}
