@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { Line } from 'vue-chartjs'
+import type { ChartOptions, TooltipItem } from 'chart.js'
 import { CHART_COLORS, withOpacity } from '@/utils/chartColors'
 import type { MonthMetric } from '@/types/metrics'
 
@@ -27,14 +28,14 @@ const chartData = computed(() => ({
   ],
 }))
 
-const chartOptions = {
+const chartOptions: ChartOptions<'line'> = {
   responsive: true,
   maintainAspectRatio: false,
   plugins: {
     legend: { display: false },
     tooltip: {
       callbacks: {
-        label: (ctx: { parsed: { y: number } }) => ` ${ctx.parsed.y.toFixed(1)}%`,
+        label: (ctx: TooltipItem<'line'>) => ` ${(ctx.parsed.y ?? 0).toFixed(1)}%`,
       },
     },
   },
@@ -42,7 +43,7 @@ const chartOptions = {
     x: { grid: { display: false } },
     y: {
       grid: { color: 'rgba(255,255,255,0.08)' },
-      ticks: { callback: (value: number) => `${value}%` },
+      ticks: { callback: (value) => `${value}%` },
     },
   },
 }

@@ -54,6 +54,18 @@ const summary = computed(() => {
   }
 
   const current = months[i]
+  if (!current) {
+    return {
+      revenue: 0,
+      visitors: 0,
+      orders: 0,
+      conversionRate: 0,
+      revenueChange: null,
+      visitorsChange: null,
+      ordersChange: null,
+      conversionChange: null,
+    }
+  }
   const previous = i > 0 ? months[i - 1] : null
 
   return {
